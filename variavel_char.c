@@ -29,13 +29,13 @@ int main()  // FUNCAO PRINCIPAL
 
     // PROCESSAMENTO
     idade = ano_atual - ano_nasc;
-    total = qnt * vlr_unitario
+    total = qtd * vlr_unitario;
 
     // RETURN
     printf("\nEu digitei a letra %c", caracter);
     printf("\nE me chamo %s da Unipar", nome);
     printf("\nMeu nome eh %s e tenho %d anos.", nome, idade);
-    printf("\nComprei qtd %d - %s de R$ %.2f, total R$ %.2f ", qtd, produto vlr_unitario);
+    printf("\nComprei qtd %d - %s de R$ %.2f, total R$ %.2f ", qtd, produto, vlr_unitario, total);
 
     return 0;  // RETORNO 0 - EXECUTOU COM SUCESSO O PROGRAMA
 
